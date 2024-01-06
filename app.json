@@ -1,5 +1,5 @@
 {
-    "name": "Stranger Music Bot",
+    "name": "Nykaa Music",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://graph.org/file/d3fe3c288fdb37a70ca09.jpg",
     "keywords": [
@@ -79,8 +79,8 @@
         "required": true
     },
     "START_IMG_URL": {
-        "description": "Inter your image url for bot starting"
-        "value": "",
+        "description": "Inter your image url for bot starting",
+        "value": "https://telegra.ph/file/e7083c597e3cdeeca03b3.jpg",
         "required": true
     },
     "buildpacks": [

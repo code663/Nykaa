@@ -78,11 +78,6 @@
         "value": "main",
         "required": true
     },
-    "START_IMG_URL": {
-        "description": "Inter your image url for bot starting",
-        "value": "",
-        "required": true
-    },
     "buildpacks": [
           {
               "url": "heroku/python"

@@ -23,25 +23,27 @@ selections = [
 def sparrow(playedd,totlel):
     badboy=(time_to_seconds(playedd) / time_to_seconds(totlel))*100
     if 0<badboy<=10:
-        return "⚘—————————"
+        return "✄─·─·─·─·─·─·─·─·─·─"
     elif 10<badboy<=20:
-        return "—⚘————————"
+        return "-ˋˏ✄─·─·─·─·─·─·─·─·─"
     elif 20<badboy<=30:
-        return "——⚘———————"
+        return "-ˋˏ-ˋˏ✄─·─·─·─·─·─·─·─"
     elif 30<badboy<=40:
-        return "———⚘——————"
+        return "-ˋˏ-ˋˏ-ˋˏ✄─·─·─·─·─·─·─"
     elif 40<badboy<=50:
-        return "————⚘—————"
+        return "-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄─·─·─·─·─·─"
     elif 50<badboy<=60:
-        return "—————⚘————"
+        return "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄─·─·─·─·─"
     elif 60<badboy<=70:
-        return "——————⚘———"
+        return "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄─·─·─·─"
     elif 70<badboy<=80:
-        return "———————⚘——"
-    elif 80<badboy<=95:
-        return "————————⚘—"
+        return "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄─·─·─·─"
+    elif 80<badboy<=90:
+        return "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄─·─·─"
+    elif 90<badboy<=100:
+        return "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄─·"
     else:
-        return "—————————⚘"
+        return "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·"
 
 ## After Edits with Timer Bar
 

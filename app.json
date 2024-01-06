@@ -75,13 +75,13 @@
       },
       "UPSTREAM_BRANCH": {
         "description": "Upstream Repo's Branch Name",
-        "value": "master",
+        "value": "main",
         "required": true
-      }
     },
     "START_IMG_URL": {
         "description": "Inter your image url for bot starting"
-        "value": true
+        "value": "",
+        "required": true
     },
     "buildpacks": [
           {

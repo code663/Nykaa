@@ -70,8 +70,8 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/sparrow9616/StrangerMusicBot",
-        "required": true
+        "value": "",
+        "required": false
       },
       "UPSTREAM_BRANCH": {
         "description": "Upstream Repo's Branch Name",
@@ -80,7 +80,7 @@
     },
     "START_IMG_URL": {
         "description": "Inter your image url for bot starting",
-        "value": "https://telegra.ph/file/e7083c597e3cdeeca03b3.jpg",
+        "value": "",
         "required": true
     },
     "buildpacks": [

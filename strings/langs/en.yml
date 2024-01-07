@@ -377,14 +377,14 @@ maint_2 : "Enabled for Maintenance"
 maint_3 : "Maintenance Mode Disabled"
 
 #log
-log_1 : "**Usage:**\n/logger [enable|disable]"
-log_2 : "Enabled Logging"
-log_3 : "Logging Disabled"
+log_1 : "**๏ ᴜsᴀɢᴇ ➛**\n๏ /logger [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ]"
+log_2 : "๏ ᴇɴᴀʙʟᴇᴅ ʟᴏɢɢɪɴɢ..."
+log_3 : "๏ ʟᴏɢɢɪɴɢ ᴅɪsᴀʙʟᴇ "
 
 #videomode
-vidmode_1 : "**Usage:**\n/videomode [download|m3u8]"
-vidmode_2 : "Video Play Mode set as downloader. Bot will be downloading tracks now."
-vidmode_3 : "Video Play Mode set as m3u8. Bot will be play tracks live now."
+vidmode_1 : "**๏ ᴜsᴀɢᴇ ➛**\n๏ /videomode [ᴅᴏᴡɴʟᴏᴀᴅ|ᴍ3ᴜ8]"
+vidmode_2 : "๏ ᴠɪᴅᴇᴏ ᴘʟᴀʏ ᴍᴏᴅᴇ sᴇᴛ ᴀs ᴅᴏᴡɴʟᴏᴀᴅᴇʀ. ʙᴏᴛ ᴡɪʟʟ ʙᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʀᴀᴄᴋs ɴᴏᴡ."
+vidmode_3 : "๏ ᴠɪᴅᴇᴏ ᴘʟᴀʏ ᴍᴏᴅᴇ sᴇᴛ ᴀs ᴍ3ᴜ8. ʙᴏᴛ ᴡɪʟʟ ʙᴇ ᴘʟᴀʏ ᴛʀᴀᴄᴋs ʟɪᴠᴇ ɴᴏᴡ."
 
 #broadcast
 broad_1 : "**Broadcasted Message In {0}  Chats with {1} Pins from Bot.**"
@@ -429,17 +429,17 @@ pbot_13 : "\n**<b>ᴜɴꜰᴇᴛᴄʜᴇᴅ ᴄʜᴀᴛs:</b>**\n\n"
 
 
 #Gbanned
-gban_1 : "ʏᴏᴜ ᴄᴀɴ'ᴛ ɢʙᴀɴ ʏᴏᴜʀsᴇʟғ ? ʙʟᴏᴏᴅʏ ɴᴏᴏʙ !"
-gban_2 : "ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ɢʙᴀɴ ᴍʏsᴇʟғ ? ʙʟᴏᴏᴅʏ ᴍᴏᴛʜᴇʀғᴜ*ᴋᴇʀ."
-gban_3 : "ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢʙᴀɴ ᴍʏ ᴇx ?"
-gban_4 : "{0} ɪs ᴀʟʀᴇᴀᴅʏ **ɢʙᴀɴɴᴇᴅ** ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ."
-gban_5 : "**ɢʟᴏʙᴀʟ ʙᴀɴɴɪɴɢ {0}**\n\nᴇxᴩᴇᴄᴛᴇᴅ ᴛɪᴍᴇ : {1}."
-gban_6 : "**ɢʙᴀɴɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ**\n\nʙᴀɴɴᴇᴅ **{0}** ғʀᴏᴍ **{1}** ᴄʜᴀᴛs."
-gban_7 : "{0} ɪs ɴᴏᴛ **ɢʙᴀɴɴᴇᴅ **, ʜᴏᴡ ᴄᴀɴ ɪ ᴜɴɢʙᴀɴ ʜɪᴍ ?"
-gban_8 : "**ᴜɴɢʙᴀɴɴɪɴɢ {0}**\n\nᴇxᴩᴇᴄᴛᴇᴅ ᴛɪᴍᴇ : {1}."
-gban_9 : "**ᴜɴɢʙᴀɴɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ**\n\nᴜɴʙᴀɴɴᴇᴅ **{0}** ɪɴ **{1}** ᴄʜᴀᴛs."
-gban_10 : "ɴᴏ ᴏɴᴇ ɪs ɢʙᴀɴɴᴇᴅ."
-gban_11 : "ɢᴇᴛᴛɪɴɢ ɢʙᴀɴɴᴇᴅ ᴜsᴇʀs ʟɪsᴛ..."
+gban_1 : "๏ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢʙᴀɴ ʏᴏᴜʀsᴇʟғ.? ʙʟᴏᴏᴅʏ ɴᴏᴏʙ !"
+gban_2 : "๏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ɢʙᴀɴ ᴍʏsᴇʟғ.? ʙʟᴏᴏᴅʏ ᴍᴏᴛʜᴇʀғᴜ*ᴋᴇʀ."
+gban_3 : "๏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢʙᴀɴ ᴍʏ ᴇx ?"
+gban_4 : "๏ {0} ɪs ᴀʟʀᴇᴀᴅʏ **ɢʙᴀɴɴᴇᴅ** ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ."
+gban_5 : "**๏ ɢʟᴏʙᴀʟ ʙᴀɴɴɪɴɢ {0}**\n\n๏ ᴇxᴩᴇᴄᴛᴇᴅ ᴛɪᴍᴇ ➛ {1}."
+gban_6 : "**๏ ɢʙᴀɴɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ**\n\n๏ ʙᴀɴɴᴇᴅ **{0}** ғʀᴏᴍ **{1}** ᴄʜᴀᴛs."
+gban_7 : "๏ {0} ɪs ɴᴏᴛ **ɢʙᴀɴɴᴇᴅ **, ʜᴏᴡ ᴄᴀɴ ɪ ᴜɴɢʙᴀɴ ʜɪᴍ ?"
+gban_8 : "**๏ ᴜɴɢʙᴀɴɴɪɴɢ {0}**\n\n๏ ᴇxᴩᴇᴄᴛᴇᴅ ᴛɪᴍᴇ ➛ {1}."
+gban_9 : "**๏ ᴜɴɢʙᴀɴɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ**\n\n๏ ᴜɴʙᴀɴɴᴇᴅ **{0}** ɪɴ **{1}** ᴄʜᴀᴛs."
+gban_10 : "๏ ɴᴏ ᴏɴᴇ ɪs ɢʙᴀɴɴᴇᴅ."
+gban_11 : "๏ ɢᴇᴛᴛɪɴɢ ɢʙᴀɴɴᴇᴅ ᴜsᴇʀs ʟɪsᴛ..."
 
 #Suggestions
 sug_0 : "❓**Do You Know?**\n\n✅ "

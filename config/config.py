@@ -33,7 +33,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001929735324"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "shree MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ANGELXMUSIC")
 
 # Your User ID.
 OWNER_ID = list(
@@ -49,7 +49,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/tinaarobot/Nykaa",
+    "https://github.com/code663/Nykaa",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -162,7 +162,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e7083c597e3cdeeca03b3.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/c3e0b5817932f768b0f9a.jpg")
 
 # PING_IMG_URL = getenv(
 #     "PING_IMG_URL",

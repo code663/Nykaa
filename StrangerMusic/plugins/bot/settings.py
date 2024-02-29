@@ -8,6 +8,8 @@ from config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
                     MUSIC_BOT_NAME, OWNER_ID)
 from strings import get_command
 from StrangerMusic import app
+import random
+
 from StrangerMusic.utils.database import (add_nonadmin_chat,
                                        cleanmode_off, cleanmode_on,
                                        commanddelete_off,
@@ -36,6 +38,10 @@ from StrangerMusic.utils.inline.start import private_panel
 ### Command
 SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
 
+VIDEO_URL = [
+"https://telegra.ph/file/43e8177530f9e990ff817.mp4",
+"https://telegra.ph/file/e671af8e130721d68cb7a.mp4",
+]
 
 @app.on_message(
     filters.command(SETTINGS_COMMAND)
@@ -558,3 +564,15 @@ async def cleanmode_mark(client, CallbackQuery, _):
         )
     except MessageNotModified:
         return
+
+@app.on_callback_query(filters.regex("gib_source"))
+async def gib_repo_callback(_, callback_query):
+    await callback_query.edit_message_media(
+        media=InputMediaVideo(random.choice(VIDEO_URL), has_spoiler=True),
+        reply_markup=InlineKeyboardMarkup(
+            [[
+             InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data=f"close"),
+             ]]
+        ),
+    )
+##########

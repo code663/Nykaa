@@ -68,11 +68,11 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons.append(
       [
             InlineKeyboardButton(
-                text="update",
+                text="🌱ᴜᴘᴅᴀᴛᴇ🌱",
                 url=f"https://t.me/pikachu"
             ),
            InlineKeyboardButton(
-               text="sᴜᴘᴘᴏʀᴛ",
+               text="🍃sᴜᴘᴘᴏʀᴛ🍃",
                url=f"https://t.me/pikachu"
            ),
         ]
@@ -102,7 +102,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                user_id=OWNER
                     ),
            InlineKeyboardButton(
-                text="sᴏᴜʀᴄᴇ",
+                text="🍂sᴏᴜʀᴄᴇ🍂",
                 callback_data="gib_source"
                    ),
         ]

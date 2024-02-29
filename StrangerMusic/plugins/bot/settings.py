@@ -1,3 +1,5 @@
+from pyrogram.types import (CallbackQuery, InlineKeyboardButton, InputMediaVideo, 
+                            InlineKeyboardMarkup, Message)
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.errors import MessageNotModified

@@ -30,7 +30,7 @@ loop = asyncio.get_running_loop()
 
 
 @app.on_message(
-    filters.command(get_command("START_COMMAND"))
+    filters.command(get_command("pSTART_COMMAND"))
     & filters.private
     & ~BANNED_USERS
 )
@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
-        if name[0:4] == "help":
+        if name[0:4] == "phelp":
             keyboard = help_pannel(_)
             return await message.reply_text(
                 _["help_1"], reply_markup=keyboard
@@ -214,7 +214,7 @@ async def start_comm(client, message: Message, _):
 
 
 @app.on_message(
-    filters.command(get_command("START_COMMAND"))
+    filters.command(get_command("pSTART_COMMAND"))
     & filters.group
     & ~BANNED_USERS
 )
